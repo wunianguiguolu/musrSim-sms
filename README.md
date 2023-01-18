@@ -23,7 +23,7 @@ cmake ../
 make -j4
 ```
 
-If you use Ubuntu22.04, you should change "VERSION 2.6" in CMakeLists.txt to "VERSION 2.8.12" (line 3), Change "set(CMAKE_CXX_STANDARD 14)" in CMakeLists.txt to "set(CMAKE_CXX_STANDARD 17)" (line 6) and compile.
+If you use Ubuntu22.04, you should change `VERSION 2.6` in CMakeLists.txt to `VERSION 2.8.12` (line 3), change `set(CMAKE_CXX_STANDARD 14)` in CMakeLists.txt to `set(CMAKE_CXX_STANDARD 17)` (line 6) and compile.
 
 ### Create working directory
 
