@@ -1,5 +1,5 @@
 
-# musrsim-sms
+# musrSim-sms
 Geant4 package for musrSim (shanghai muon source dedicated)
 
 # Tutorial
@@ -19,8 +19,12 @@ git clone https://github.com/kimsiang/musrsim-sms.git
 cd musrsim-sms
 mkdir build
 cd build
+cmake ../
 make -j4
 ```
+
+If you use Ubuntu22.04, you should change "VERSION 2.6" in CMakeLists.txt to "VERSION 2.8.12" (line 3), Change "set(CMAKE_CXX_STANDARD 14)" in CMakeLists.txt to "set(CMAKE_CXX_STANDARD 17)" (line 6) and compile.
+
 ### Create working directory
 
 ```
